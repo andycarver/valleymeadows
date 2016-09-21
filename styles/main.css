@@ -1,8 +1,13 @@
-.navbar-header a {
-	display:inline-block;
-	color:red;
+ul li a {
+	color:#808080;
 }
 
-body{
-	background:green;
+.imgbanner {
+	width: 100%;
+}
+
+.valleylogo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
