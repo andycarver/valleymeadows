@@ -2,9 +2,29 @@ ul li a {
 	color:#808080;
 }
 
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.contactus {
+	text-align: center;
+}
+
+.describe {
+	text-align: center;
+}
+
 .imgbanner {
 	width: 100%;
+<<<<<<< HEAD
 	max-width: 1140px;
+=======
+	display:block;
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+>>>>>>> 9b743c0151ac99acad008b78ec3220e7c1a15a9a
 }
 
 .valleylogo {
@@ -33,6 +53,7 @@ ul li a {
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
+<<<<<<< HEAD
 
 .main-article-title {
 	text-align: center;
@@ -55,3 +76,24 @@ html {
 .nav>li>a {
     padding: 15px 15px;
 }
+=======
+<<<<<<< HEAD
+
+.contact-title {
+	max-width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+.contact-call-us{
+	max-width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #6ba8b2;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+=======
+>>>>>>> b556c628d5110e2f784265bd4fe859516746a6da
+>>>>>>> 9b743c0151ac99acad008b78ec3220e7c1a15a9a
