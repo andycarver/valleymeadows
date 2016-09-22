@@ -2,6 +2,19 @@ ul li a {
 	color:#808080;
 }
 
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.contactus {
+	text-align: center;
+}
+
+.describe {
+	text-align: center;
+}
+
 .imgbanner {
 	width: 100%;
 	display:block;
@@ -36,6 +49,7 @@ ul li a {
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
+<<<<<<< HEAD
 
 .contact-title {
 	max-width: 100%;
@@ -52,3 +66,5 @@ ul li a {
 	font-size: 22px;
 	text-align: center;
 }
+=======
+>>>>>>> b556c628d5110e2f784265bd4fe859516746a6da
