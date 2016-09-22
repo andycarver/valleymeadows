@@ -2,11 +2,6 @@ ul li a {
 	color:#808080;
 }
 
-h2 {
-	text-align: center;
-	text-decoration: underline;
-}
-
 .contactus {
 	text-align: center;
 }
@@ -28,13 +23,6 @@ h2 {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.img-fluid {
-	max-width: 100%;
-	height: auto;
-	padding-left: 40px;
-	padding-right: 40px;
 }
 
 .contact-p {
@@ -88,7 +76,27 @@ html {
 	font-size: 22px;
 	text-align: center;
 }
+.contact-col-2 {
+	max-width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
 
 .navbar {
 	margin-bottom: 10px;
+}
+
+.contact-col-1 {
+	width:100%;
+}
+
+.column-1 img {
+	max-width: 456px;
+	max-height: 456px;
+
+}
+
+.column-2 {
+
 }
