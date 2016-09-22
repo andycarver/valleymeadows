@@ -4,6 +4,7 @@ ul li a {
 
 .imgbanner {
 	width: 100%;
+	max-width: 1140px;
 }
 
 .valleylogo {
@@ -31,4 +32,24 @@ ul li a {
 
 .dropdown:hover .dropdown-menu {
 	display: block;
+}
+
+.main-article-title {
+	text-align: center;
+}
+
+.centered-button {
+	text-align: center;
+}
+
+.main-article-body {
+	text-align: center;
+}
+
+html { 
+  overflow-y: scroll; 
+}
+
+.nav>li>a {
+    padding: 15px 15px;
 }
