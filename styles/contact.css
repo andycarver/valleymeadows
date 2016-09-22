@@ -13,3 +13,12 @@ h2, p {
 .valley-address {
 	padding-left: 9%;
 }
+
+.contact-info {
+	font-size: 18px;
+}
+
+.contact-info a {
+	font-style: none;
+	color: #888888;
+}
