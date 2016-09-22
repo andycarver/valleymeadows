@@ -92,3 +92,19 @@ html {
 .navbar {
 	margin-bottom: 10px;
 }
+
+.valleylogo {
+	padding-top: 50px;
+}
+
+@media (max-width: 991px) {
+    .valleylogo {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}

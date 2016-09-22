@@ -10,24 +10,45 @@
 <body>
 	<header class="navbar">
 		<div class="container">
-			<nav class="navbar navbar-default" role="navigation">
-				<ul class="nav nav-justified">
-					<li><a href="index.html">Home</a></li>
-					<li class="dropdown">
-						<a href="eventgallery.html" class="dropdown-toggle disabled" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event Gallery<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-					    	<li><a href="#">June Styled Shoot</a></li>
-					     	<li><a href="#">Springtime Tour</a></li>
-					    	<li><a href="#">Stephanie + Nick</a></li>
-							<li><a href="#">Edie + Aaron</a></li>
-							<li><a href="#">Hilarie + Keith</a></li>
-						</ul>
-					</li>
-					<li><a href="reservationdetails.html">Reservation Details</a></li>
-					<li><a href="vendors.html">Local Vendors</a></li>
-					<li><a href="contacts.html">Contact</a></li>
-				</ul>	 
-			</nav>
+
+			<!-- Normal Navbar -->
+			<div class="visible-md visible-lg">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<ul class="nav nav-justified">
+						<li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="eventgallery.html" class="dropdown-toggle disabled" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event Gallery<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+						    	<li><a href="#">June Styled Shoot</a></li>
+						     	<li><a href="#">Springtime Tour</a></li>
+						    	<li><a href="#">Stephanie + Nick</a></li>
+								<li><a href="#">Edie + Aaron</a></li>
+								<li><a href="#">Hilarie + Keith</a></li>
+							</ul>
+						</li>
+						<li><a href="reservationdetails.html">Reservation Details</a></li>
+						<li><a href="vendors.html">Local Vendors</a></li>
+						<li><a href="contacts.html">Contact</a></li>
+					</ul>	 
+				</nav>
+			</div>
+
+			<!-- Mobile Navbar -->
+			<div class="visible-xs visible-sm">
+				<div class="bd-example" data-example-id="">
+					<nav class="navbar navbar-light bg-faded">
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+					    &#9776;
+					  </button>
+					  <div class="collapse" id="exCollapsingNavbar">
+					    <div class="bg-inverse p-a-1">
+					      <h4>Collapsed content</h4>
+					      <span class="text-muted">Toggleable via the navbar brand.</span>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</div>
 			<img class ="valleylogo" src="img/valleylogo.png">
 			<img class ="imgbanner" src="img/homeimage.png">
 		</div>
