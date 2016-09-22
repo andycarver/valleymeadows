@@ -14,7 +14,6 @@ ul li a {
 	width: 100%;
 	max-width: 1140px;
 	display:block;
-	max-width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -92,11 +91,24 @@ html {
 }
 
 .column-1 img {
-	max-width: 456px;
-	max-height: 456px;
+	max-width: 95%;
+	padding-left: 6%;
 
 }
 
-.column-2 {
+.valleylogo {
+	padding-top: 50px;
+}
+
+@media (max-width: 991px) {
+    .valleylogo {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
 
 }
