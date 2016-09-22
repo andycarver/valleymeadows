@@ -1,13 +1,24 @@
-h4 {
-  padding-top: 15px;
-  padding-left: 35px;
+
+
+img {
+  padding-right: 15px;
 }
 
-
-
 li a {
-  font-family: arial;
+  font-family: 'Raleway', sans-serif;
   text-decoration: underline;
-  font-size: 18px;
-  padding-left: 35px;
+  font-size: 17px;
+}
+
+.column-1 {
+  padding-left: 5%;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 15px;
+}
+
+.sub-li {
+  padding-left: 14%;
 }
