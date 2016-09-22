@@ -1,3 +1,15 @@
 h2, p {
 	font-family: 'Raleway', sans-serif;
 }
+
+.column-2 {
+	padding-top: 5%;
+}
+
+.contact-info {
+	padding-top: 3%;
+}
+
+.valley-address {
+	padding-left: 9%;
+}
