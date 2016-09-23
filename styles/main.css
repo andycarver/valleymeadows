@@ -66,7 +66,6 @@ html {
 	max-width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
-
 }
 .contact-call-us{
 	max-width: 100%;
@@ -86,6 +85,8 @@ html {
 
 .navbar {
 	margin-bottom: 10px;
+	border-top-width: 0px;
+	min-height: 0px;
 }
 
 .contact-col-1 {
@@ -95,22 +96,8 @@ html {
 .column-1 img {
 	max-width: 95%;
 	padding-left: 6%;
-
 }
 
 .valleylogo {
 	padding-top: 50px;
-}
-
-@media (max-width: 991px) {
-    .valleylogo {
-      padding:0;
-    }
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
-    }
-
 }
