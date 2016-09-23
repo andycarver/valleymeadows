@@ -1,7 +1,10 @@
 .thumbnail {
     position:relative;
-    overflow:hidden;
-    max-height: 316;
-    max-width: 305;
+    height: 305px;
+   	max-width: 316;
 
+}
+
+.row {
+	max-height: 305px;
 }
