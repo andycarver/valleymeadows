@@ -1,0 +1,7 @@
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    max-height: 316;
+    max-width: 305;
+
+}
