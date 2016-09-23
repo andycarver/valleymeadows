@@ -39,6 +39,7 @@ ul li a {
 }
 
 .main-article-title {
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -49,11 +50,12 @@ ul li a {
 }
 
 .main-article-body {
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
 
-html { 
-  overflow-y: scroll; 
+html {
+  overflow-y: scroll;
 }
 
 .nav>li>a {
