@@ -58,10 +58,6 @@ html {
   overflow-y: scroll;
 }
 
-.nav>li>a {
-    padding: 15px 15px;
-}
-
 .contact-title {
 	max-width: 100%;
 	padding-left: 40px;
@@ -80,13 +76,25 @@ html {
 	max-width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
-
 }
 
 .navbar {
 	margin-bottom: 10px;
 	border-top-width: 0px;
 	min-height: 0px;
+	justify-content: center;
+    display: flex;
+}
+
+.nav li a {
+    padding: 15px 15px;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.dropdown-menu {
+	margin: 0px;
 }
 
 .contact-col-1 {
@@ -99,5 +107,5 @@ html {
 }
 
 .valleylogo {
-	padding-top: 50px;
+	padding-top: 40px;
 }
