@@ -94,6 +94,13 @@ html {
     text-align: center;
 }
 
+/* left aligns drop down links
+
+.dropdown li a {
+	text-align: left;
+}
+*/
+
 .dropdown-menu {
 	margin: 0px;
 }
