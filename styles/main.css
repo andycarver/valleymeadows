@@ -120,3 +120,7 @@ html {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 }
+
+.footer p {
+	text-align:center;
+}
