@@ -52,6 +52,7 @@ ul li a {
 .main-article-body {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+	font-size: 18px;
 }
 
 html {
@@ -108,4 +109,26 @@ html {
 
 .valleylogo {
 	padding-top: 40px;
+}
+
+.botevent {
+	padding-top: 20px;
+}
+
+.copy {
+	font-family: 'Raleway', sans-serif;
+}
+
+.hkh {
+	padding-left: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.hkp {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footer p {
+	text-align:center;
 }

@@ -1,0 +1,13 @@
+.rowimg {
+   	display: inline-block;
+    *display: inline;
+    padding-left: 10%;
+
+}
+
+.row {
+	max-height: 305px;
+	max-width: 1140px;
+	margin-bottom: 1%;
+}
+
