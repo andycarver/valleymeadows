@@ -3,7 +3,6 @@
     position:relative;
     overflow:hidden;
     border: none;
-    display: inline-block;
 }
 
 .caption {
@@ -32,4 +31,22 @@
 
 .thumbnail:hover .caption {
     top:0%;
+}
+
+.hkh {
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hkp {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.thumbnail:hover .caption {
+    top:0%;
+}
+
+.row_2 {
+    padding-top: 10px;
 }
