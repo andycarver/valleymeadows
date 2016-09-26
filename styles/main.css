@@ -80,21 +80,41 @@ html {
     padding-left: 10%;
     padding-right: 10%;
 }
-
+/*New navbar css*/
 .navbar {
-    margin-bottom: 10px;
-    border-top-width: 0px;
-    min-height: 0px;
-    justify-content: center;
-    display: flex;
+	margin-bottom: 0px;
+
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
 }
 
-.nav li a {
-    padding: 15px 15px;
-    white-space: nowrap;
-    justify-content: center;
-    text-align: center;
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #e6e6e6;
+    color: #337ab7;
 }
+}
+
+
+/*End of new navbar css*/
 
 
 /* left aligns drop down links
@@ -117,9 +137,6 @@ html {
     padding-left: 6%;
 }
 
-.valleylogo {
-    padding-top: 40px;
-}
 
 .botevent {
     padding-top: 20px;
