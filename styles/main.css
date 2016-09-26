@@ -1,148 +1,161 @@
 ul li a {
-	color:#808080;
+    color: #808080;
 }
 
 .contactus {
-	text-align: center;
-}
-
-.describe {
-	text-align: center;
-}
-
-.imgbanner {
-	width: 100%;
-	max-width: 1140px;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.valleylogo {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.contact-p {
-	max-width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-.dropdown-menu {
-	width: 100%;
-}
-
-.dropdown:hover .dropdown-menu {
-	display: block;
-}
-
-.main-article-title {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.centered-button {
-	text-align: center;
-}
-
-.main-article-body {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 18px;
-}
-
-html {
-  overflow-y: scroll;
-}
-
-.contact-title {
-	max-width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-.contact-call-us {
-	max-width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	color: #6ba8b2;
-	font-family: 'Raleway', sans-serif;
-	font-size: 22px;
-	text-align: center;
-	padding-bottom: 7%;
-}
-
-.contact-col-2 {
-	max-width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.column-2 {
-	padding-top: 2%;
-}
-
-.column-3 {
-	padding-top: 2%;
-}
-
-.valley-address {
-	padding-left: 0px;
-	padding-bottom: 7%;
-}
-
-.navbar {
-	margin-bottom: 10px;
-	border-top-width: 0px;
-	min-height: 0px;
-	justify-content: center;
-}
-
-.nav li a {
-    padding: 15px 15px;
-    white-space: nowrap;
-    justify-content: center;
     text-align: center;
 }
 
-.dropdown-menu {
-	margin: 0px;
+.describe {
+    text-align: center;
 }
 
-.contact-col-1 {
-	width:100%;
-}
-
-.img-responsive {
-	margin: auto;
+.imgbanner {
+    width: 100%;
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .valleylogo {
-	padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.contact-p {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.main-article-title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.centered-button {
+    text-align: center;
+}
+
+.main-article-body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.contact-title {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.contact-call-us {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #6ba8b2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-col-2 {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*New navbar css*/
+.navbar {
+	margin-bottom: 0px;
+
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #e6e6e6;
+    color: #337ab7;
+}
+}
+
+
+/*End of new navbar css*/
+
+
+/* left aligns drop down links
+
+.dropdown li a {
+	text-align: left;
+}
+*/
+
+.dropdown-menu {
+    margin: 0px;
+}
+
+.contact-col-1 {
+    width: 100%;
+}
+
+
+.column-1 img {
+    max-width: 95%;
+    padding-left: 6%;
+}
+
+
 .botevent {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 .copy {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hkh {
-	padding-left: 50px;
-	font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hkp {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer p {
-	text-align:center;
+    text-align: center;
 }

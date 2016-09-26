@@ -1,26 +1,26 @@
 .column-1 {
-  padding-left: 5%;
+    padding-left: 5%;
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .sub-li a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 17px;
-  text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-decoration: underline;
 }
 
 .sub-li {
-  padding-left: 14%;
+    padding-left: 14%;
 }
 
 .vendor-icons {
-  padding-right: 15px;
+    padding-right: 15px;
 }
