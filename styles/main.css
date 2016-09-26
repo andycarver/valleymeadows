@@ -1,89 +1,91 @@
 ul li a {
-	color:#808080;
+    color: #808080;
 }
 
 .contactus {
-	text-align: center;
+    text-align: center;
 }
 
 .describe {
-	text-align: center;
+    text-align: center;
 }
 
 .imgbanner {
-	width: 100%;
-	max-width: 1140px;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+    width: 100%;
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .valleylogo {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-p {
-	max-width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .dropdown-menu {
-	width: 100%;
+    width: 100%;
 }
 
 .dropdown:hover .dropdown-menu {
-	display: block;
+    display: block;
 }
 
 .main-article-title {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .centered-button {
-	text-align: center;
+    text-align: center;
 }
 
 .main-article-body {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
 }
 
 html {
-  overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 .contact-title {
-	max-width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.contact-call-us{
-	max-width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	color: #6ba8b2;
-	font-family: 'Raleway', sans-serif;
-	font-size: 22px;
-	text-align: center;
+
+.contact-call-us {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #6ba8b2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    text-align: center;
 }
+
 .contact-col-2 {
-	max-width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .navbar {
-	margin-bottom: 10px;
-	border-top-width: 0px;
-	min-height: 0px;
-	justify-content: center;
+    margin-bottom: 10px;
+    border-top-width: 0px;
+    min-height: 0px;
+    justify-content: center;
     display: flex;
 }
 
@@ -94,6 +96,7 @@ html {
     text-align: center;
 }
 
+
 /* left aligns drop down links
 
 .dropdown li a {
@@ -102,40 +105,40 @@ html {
 */
 
 .dropdown-menu {
-	margin: 0px;
+    margin: 0px;
 }
 
 .contact-col-1 {
-	width:100%;
+    width: 100%;
 }
 
 .column-1 img {
-	max-width: 95%;
-	padding-left: 6%;
+    max-width: 95%;
+    padding-left: 6%;
 }
 
 .valleylogo {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 .botevent {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 .copy {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hkh {
-	padding-left: 50px;
-	font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hkp {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer p {
-	text-align:center;
+    text-align: center;
 }
