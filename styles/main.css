@@ -64,7 +64,8 @@ html {
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.contact-call-us{
+
+.contact-call-us {
 	max-width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -72,11 +73,26 @@ html {
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	text-align: center;
+	padding-bottom: 7%;
 }
+
 .contact-col-2 {
 	max-width: 100%;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+.column-2 {
+	padding-top: 2%;
+}
+
+.column-3 {
+	padding-top: 2%;
+}
+
+.valley-address {
+	padding-left: 0px;
+	padding-bottom: 7%;
 }
 
 .navbar {
@@ -84,7 +100,6 @@ html {
 	border-top-width: 0px;
 	min-height: 0px;
 	justify-content: center;
-    display: flex;
 }
 
 .nav li a {
@@ -94,13 +109,6 @@ html {
     text-align: center;
 }
 
-/* left aligns drop down links
-
-.dropdown li a {
-	text-align: left;
-}
-*/
-
 .dropdown-menu {
 	margin: 0px;
 }
@@ -109,9 +117,8 @@ html {
 	width:100%;
 }
 
-.column-1 img {
-	max-width: 95%;
-	padding-left: 6%;
+.img-responsive {
+	margin: auto;
 }
 
 .valleylogo {
