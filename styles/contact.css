@@ -22,3 +22,20 @@ h2, p {
     font-style: none;
     color: #888888;
 }
+
+.column-2 {
+    padding-top: 2%;
+}
+
+.column-3 {
+    padding-top: 2%;
+}
+
+.valley-address {
+    padding-left: 0px;
+    padding-bottom: 7%;
+}
+
+.img-responsive {
+    margin: auto;
+}

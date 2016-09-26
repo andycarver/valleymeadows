@@ -73,6 +73,7 @@ html {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     text-align: center;
+    padding-bottom: 7%;
 }
 
 .contact-col-2 {
@@ -159,3 +160,5 @@ html {
 .footer p {
     text-align: center;
 }
+
+
